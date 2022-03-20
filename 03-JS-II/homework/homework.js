@@ -13,8 +13,9 @@ else {
   }
 }
 if (x === y){
-return (x || y );}
+  return (x || y );
  }
+}
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
