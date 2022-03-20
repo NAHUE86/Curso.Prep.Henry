@@ -51,7 +51,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Pista: usa el método `.unshift`
   // Tu código:
 array.unshift (elemento);
-return (array);
+ return (array);
 }
 
 
@@ -77,9 +77,11 @@ for (i = 0; i < largoArray; i++)
 {
  let valorArray = array [i]; 
  if (valorArray - elemento) {
- return true ;}
+ return true ;
+   }
   }
-return false ;}
+return false ;
+}
 
 
 function agregarNumeros(numeros) {
